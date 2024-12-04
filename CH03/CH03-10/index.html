@@ -15,11 +15,11 @@
   var person = {name: 'Ken', age: 14};
 person.name = 'Risa';
 person.gender = 'woman';
-person.display_gender = function() { //functionを入れることでperson.display_fenderを関数化している
+person.display_gender = function() { //functionを入れることでperson.display_fenderを関数（メソッド）にしている
   alert(person.name + ' is ' + person.gender); //display_gender関数の戻り地
 } //追加
 
-person.display_gender(); //関数化したdisplay_genderを呼び出す
+person.display_gender(); //関数（メソッド）にしたdisplay_genderを呼び出す
 </script>
 </body>
 </html>
